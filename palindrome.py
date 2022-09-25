@@ -1,3 +1,4 @@
+#this program finds if a string is palindrome
 word = 'nook'
 
 i = 1

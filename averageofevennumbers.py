@@ -1,0 +1,1 @@
+#find average of first 100 even numbers
