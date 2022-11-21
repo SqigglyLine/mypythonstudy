@@ -12,7 +12,7 @@ def process_workbook(filename):
         corrected_price_cell.value = corrected_price
 
     title = sheet.cell(1, 4)
-    title.value = 'New Prices'
+    title.value = 'New Prices ($)'
 
     values = Reference(sheet,
               min_row=2,
