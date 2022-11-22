@@ -24,6 +24,7 @@ def process_workbook(filename):
     chart.add_data(values)
     sheet.add_chart(chart, 'e2')
 
+
     wb.save(filename)
 
 process_workbook('transactions.xlsx')
